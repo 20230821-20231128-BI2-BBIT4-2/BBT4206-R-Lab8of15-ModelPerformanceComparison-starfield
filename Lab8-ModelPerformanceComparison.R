@@ -161,7 +161,7 @@ data(PimaIndiansDiabetes)
 #   CART
 #   KNN
 #   SVM
-#   Random Fores
+#   Random Forest
 
 train_control <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
 
